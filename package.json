@@ -1,0 +1,43 @@
+{
+  "name": "grunt-locales-static",
+  "description": "Create static directories of translated templates from locales list and translations",
+  "version": "0.1.0",
+  "homepage": "https://github.com/klh/grunt-locales-static",
+  "author": {
+    "name": "klaus l. hougesen",
+    "email": "klh@threads.dk",
+    "url": "www.threads.dk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klh/grunt-locales-static.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klh/grunt-locales-static/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/klh/grunt-locales-static/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
